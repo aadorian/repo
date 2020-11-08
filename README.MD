@@ -1,88 +1,132 @@
+**#Protocol RR **
+
+Objetivo : 
+
+* Motivación - No se presenta en la literatura una definición de consenso respecto del concepto y los lideres técnicos entrevistandos en una primera etapa no establecen una definición formal. 
+
+
+`*PI:¿Qué se entiende actualmente por  Calidad de Código? *`
+Keywords: Code Quality AND Software
+
+
 ---
-title: 'Project documentation template'
-disqus: hackmd
----
+` TITLE-ABS-KEY ( "code quality"  AND  software )  AND  ( LIMIT-TO ( PUBYEAR ,  2021 )  OR  LIMIT-TO ( PUBYEAR ,  2020 ) )` 
 
-Project Title
-===
-![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
-![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
-![chat](https://img.shields.io/discord/:serverId.svg)
 
-## Table of Contents
+Fuente: Scopus
 
-[TOC]
+Unidad de análisis- definición de Calidad Código (atributos)
 
-## Beginners Guide
+1. Copiar Template ... y completar
+#Template 
+- [ ] Bibtex (obtener de Scholar https://scholar.google.com): 
+- [ ]  Mención de CQ en Abstract:
+- [ ]  Define "Code Quality" (copiar literalmente):
+- [ ]  Menciona prácticas (Ej: PR (Pull Request) detallar )
+- [ ]  Tools (¿Cuales?): 
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   
+- [ ]  Mención de herramientas ¿Cuáles?:
+- [ ]  "Cita a referenciar en paper" :  
+- [ ]  Referencias a otros artículos que mencionan Calidad Código : 
+- [ ] Author / TimeStamp / Referencia
+> [name=Alejandro Adorjan]
+> [time=Fri, Nov 6, 2020 2:33 PM]>[https://arxiv.org/pdf/1908.09321.pdf]
 
-If you are a total beginner to this, start here!
 
-1. Visit hackmd.io
-2. Click "Sign in"
-3. Choose a way to sign in
-4. Start writing note!
-
-User story
----
-
-```gherkin=
-Feature: Guess the word
-
-  # The first example has two steps
-  Scenario: Maker starts a game
-    When the Maker starts a game
-    Then the Maker waits for a Breaker to join
-
-  # The second example has three steps
-  Scenario: Breaker joins a game
-    Given the Maker has started a game with the word "silky"
-    When the Breaker joins the Maker's game
-    Then the Breaker must guess a word with 5 characters
+# Paper 1 (Ale): 
+- [x] Bibtex (Scholar): 
+ ```
+   @article{lenarduzzi2019does,
+  title={Does Code Quality Affect Pull Request Acceptance? An empirical study},
+  author={Lenarduzzi, Valentina and Nikkola, Vili and Saarim{\"a}ki, Nyyti and Taibi, Davide},
+  journal={arXiv preprint arXiv:1908.09321},
+  year={2019}
+}
 ```
-> I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. [name=Bill Gates]
+- [x]  Mención de CQ en Abstract 
 
+- [ ]  Define "Code Quality" (copiar literalmente): `dentro del objetivo del paper entender: "code quality issues such as code smells, antipatterns, and coding style violations in the pull request code" `
+- [ ]  Menciona prácticas (Ej: Code Review (CR) PR (Pull Request) Estándares (STD) detallar ): `Code Review, Pull Requests`
+- [ ]  Tools (¿Cuales?): `PMD`
 
-```gherkin=
-Feature: Shopping Cart
-  As a Shopper
-  I want to put items in my shopping cart
-  Because I want to manage items before I check out
-
-  Scenario: User adds item to cart
-    Given I'm a logged-in User
-    When I go to the Item page
-    And I click "Add item to cart"
-    Then the quantity of items in my cart should go up
-    And my subtotal should increment
-    And the warehouse inventory should decrement
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc): 
 ```
-
-> Read more about Gherkin here: https://docs.cucumber.io/gherkin/reference/
-
-User flows
----
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-Note left of Alice: Alice responds
-Alice->Bob: Where have you been?
+mantenibilidad,tolerancia a fallas,defectos,
+estilo de codificación, diseño, error prone, documentation, , performance,
+seguridad
 ```
+- [x]  Atributos de Codificación : 
+` Code Smells, anti patterns, code Style`
+- [ ]  Mención de herramientas ¿Cuáles?: `Checkstyle, Findbugs, SonarQube`
+- [x]  "Cita a referenciar en paper" :  ` ..we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project...` , `..."Quality was revealed as one of the top priorities for developers..."`, `..."We measured code quality against a set of rules pro- vided by PMD, one of the most frequently used open-source software tools for analyzing source code"`
+- [ ] Comentarios : - `Case Study` `menciona a GIT como tecnología y GITHub como repo central` y `PI asociada al tema RQ2. Does code quality affect pull request acceptance?`
+- [ ]  Referencias a otros artículos que mencionan Calidad Código : 
+- [ ] Author / TimeStamp / Referencia
+- [ ] Total Time (para estimación): 
 
-> Read more about sequence-diagrams here: http://bramp.github.io/js-sequence-diagrams/
 
-Project Timeline
----
-```mermaid
-gantt
-    title A Gantt Diagram
 
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    anther task      : 24d
+
+
+
+# Paper 1 (Diego): 
+- [x] Bibtex (Scholar): 
+ ```
+   @article{lenarduzzi2019does,
+  title={Does Code Quality Affect Pull Request Acceptance? An empirical study},
+  author={Lenarduzzi, Valentina and Nikkola, Vili and Saarim{\"a}ki, Nyyti and Taibi, Davide},
+  journal={arXiv preprint arXiv:1908.09321},
+  year={2019}
+}
 ```
+- [x]  Mención de CQ en Abstract 
+
+- [ ]  Define "Code Quality" (copiar literalmente):
+- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): 
+- [ ]  Tools (¿Cuales?): 
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   
+- [x]  Atributos de Codificación : 
+` Code Smells, anti patterns, code Style`
+- [ ]  Mención de herramientas ¿Cuáles?:
+- [x]  "Cita a referenciar en paper" :  ` we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project`
+- [ ]  Referencias a otros artículos que mencionan Calidad Código : 
+- [ ] Author / TimeStamp / Referencia
+- [ ] Total Time (para estimación): 
+
+
+# Paper 1 (Martín): 
+- [x] Bibtex (Scholar): 
+ ```
+   @article{lenarduzzi2019does,
+  title={Does Code Quality Affect Pull Request Acceptance? An empirical study},
+  author={Lenarduzzi, Valentina and Nikkola, Vili and Saarim{\"a}ki, Nyyti and Taibi, Davide},
+  journal={arXiv preprint arXiv:1908.09321},
+  year={2019}
+}
+```
+- [x]  Mención de CQ en Abstract 
+
+- [ ]  Define "Code Quality" (copiar literalmente):
+- [ ]  Menciona prácticas (Ej: PR (Pull Request) Estándaresdetallar ): 
+- [ ]  Tools (¿Cuales?): 
+- [ ]  Mención atributos Q ¿Cuáles? (Ej mantenibilidad, escalabilidad, etc)   
+- [x]  Atributos de Codificación : 
+` Code Smells, anti patterns, code Style`
+- [ ]  Mención de herramientas ¿Cuáles?:
+- [x]  "Cita a referenciar en paper" :  ` we aim at understanding whether code quality issues such as code smells, antipatterns, and coding style violations in the pull request code affect the chance of its acceptance when reviewed by a maintainer of the project`
+- [ ]  Referencias a otros artículos que mencionan Calidad Código : 
+- [ ] Author / TimeStamp / Referencia
+- [ ] Total Time (para estimación): 
+
+**Resumen RR: **
+
+| Atributos| Prácticas| Herramientas|
+| -------- | -------- | -------- |
+| Text     | Text     | Text     |
+
+> Definiciones: 
+1. 
+2.
+
 
 
